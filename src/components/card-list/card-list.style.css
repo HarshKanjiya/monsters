@@ -1,0 +1,26 @@
+.card-list{
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+
+
+.card-container{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 16px;
+    border: 1px solid rgb(25, 21, 235);
+    justify-content: center;
+    cursor: pointer;
+    transform: translatez(0) scale(0.8);
+
+    transition: transform 0.25s ease-out;
+
+}
+.card-container:hover{
+    transform: scale(0.9);
+}
